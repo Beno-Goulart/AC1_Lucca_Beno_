@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <h2 class = "titulo-header"> Boulevard Viagens  </h2>
+        	
+    <nav class="navegacao" >
+        <ul class = "nav-lista">
+            <li class="nav-lista-item">
+                <a href="principal.html" class="nav-link"> HOME </a> 
+            </li>
+
+            <li class="nav-lista-item">
+                <a href="fotos.html" class="nav-link"> FOTOS  </a>
+             </li>
+
+            <li class="nav-lista-item">
+                <a href="contatos.html" class="nav-link"> CONTATO </a> 
+            </li>
+
+         </ul>
+</nav>
+<img class="logo" src="Imagens/flight.png"/>
+    </header>
+    <br> <br> <br> <br>
+    <section class = "secao-body">
+
+        <section>
+
+            <form action="XX" method="post">
+                
+                <fieldset class="grupo">
+                    <legend>Cadastro</legend>
+                    <br>
+                    <label class="tit" for="nome">Nome:</label> <br>
+                    <input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo" />
+                    <br>
+                    <label class="tit" for="dataNascimento">Data Nascimento:</label> <br>
+                    <input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" />
+                    <br>		
+                    <label class="tit" for="sexo">Sexo:</label> <br>
+                    <input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+                    <input type="radio" name="sexo" value="M" id="sexoMasculino" /><label for="sexoMasculino">Masculino</label>
+                    <br> 
+                    <label class="tit" for="contato">Contato:</label> <br> 
+                    <input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+                    <input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+                    <input type="text" name="contato" id="contato" />
+                    <br>			
+                    <label class="tit" for="CPF">CPF:</label> <br> <br>
+                    <input type="text" name="CPF" id="CPF" />	
+                    <br>
+                    <label class="tit" for="Endereço">Endereço:</label> <br>
+                    <textarea name="Endereço" cols="60" rows="2" id="Endereço"></textarea>
+                    <br>
+                    <label class="tit" for="classes"> Classes de Avião:</label> <br>
+                    <select name="classes" id="classes"> <br>
+                        <option value="economica">Econômica</option>
+                        <option value="executiva">Executiva</option>
+                        <option value="primeira">Primeira Classe</option>
+                    </select>
+                    <br>			
+                    <input name="btnEnvio" type="submit" value="Enviar" />			
+                    &nbsp;	&nbsp; &nbsp;&nbsp;&nbsp;		
+                    <input name="btnReset" type="reset" value="Limpar" />
+                    
+                </fieldset>
+            </form>
+            </section>
+        <br>
+        <footer class="main-footer" >
+            <section  class="foot-section" >
+                <h1>Contato</h1>
+                <p>(xx) xxxx-xxxx</p>
+                <p>boulevard@example.com</p>
+            </section>
+            <section  class="foot-section">
+                <h1>Endereço</h1>
+                <p>Avenida x</p>
+                <p>São Paulo, SP</p>
+            </section>
+            <section  class="foot-section">
+                <h1>Funcionamento</h1>
+                <p>Dia da Semana </p>
+                <p>Horário </p>
+            </section>
+</body>
+</html>
